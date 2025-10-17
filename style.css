@@ -129,7 +129,11 @@ input[type="number"] {
     font-weight: 400;
     line-height: 110%;
 
-    background: url('./assets/arrow-down.svg') no-repeat right 1rem top 50%;
+    background: url('assets/img/seta-16.png') no-repeat right 1rem top 50%;
+    /* 
+    https://www.flaticon.com/br/sticker-gratis/baixa_7444670?term=seta+baixo&page=1&position=5&origin=search&related_id=7444670
+    baixar png seta baixo tamanho 24 ou 32 para testar
+    */
 }
 
 .dropdown {
