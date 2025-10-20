@@ -4,7 +4,6 @@ document.getElementById('lista-produtos').innerHTML = '';
 document.getElementById('valor-total').innerHTML = 'R$';
  
 function adicionar(){
-    // (recuperar nome, quantidade, e preço)
     let produto = document.getElementById('produto').value;
     let quantidade = document.getElementById('quantidade').value;
 
@@ -30,10 +29,11 @@ function adicionar(){
     let campoTotal = document.getElementById('valor-total');
     campoTotal.textContent = `R$${totalGeral}`;
 
+    // * limpa o campo de 'quantidade' após adicionar o produto
     document.getElementById('quantidade').value = '';
 }
 
-//* Limpar Carrinho: Função para remover todos os itens e zerar os valores.
+//* Limpar Carrinho
 function limpar(){
     totalGeral = 0;
 
