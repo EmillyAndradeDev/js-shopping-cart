@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Valores do Formulário - Loja de Brinquedos</title>
+    <link rel="stylesheet" href="style-entrada-de-dados.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Entrada de Dados - Loja de Brinquedos</h1>
+
+        <form id="formulario-dados">
+            <div class="form-grupo">
+                <label for="nome-produto">Nome do Produto:</label>
+                <input type="text" id="nome-produto" name="nome-produto" placeholder="Ex: Urso de Pelúcia">
+            </div>
+
+            <div class="form-grupo">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" placeholder="Ex: 2" min="1">
+            </div>
+
+            <div class="form-grupo">
+                <label for="preco">Preço Unitário (R$):</label>
+                <input type="text" id="preco" name="preco" placeholder="Ex: 50.00">
+            </div>
+
+            <button type="button" id="botao-enviar" onclick="recuperarValores()">Recuperar Valores</button>
+        </form>
+
+        <h2>Valores Recebidos</h2>
+        <div id="resultado-tela" class="resultado">
+            <p>Os valores do formulário aparecerão aqui após clicar no botão.</p>
+        </div>
+        <button type="button" id="botao-enviar" onclick="limparValores()">Limpar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
