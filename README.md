@@ -17,6 +17,8 @@ O projeto implementa as seguintes interações e cálculos essenciais de um e-co
 
  - Limpar Carrinho: Função para remover todos os itens e zerar os valores.
 
+ - Enviar informações do carrinho para WhatsApp
+
 ## 🛠️ Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
