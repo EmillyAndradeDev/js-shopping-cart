@@ -124,7 +124,7 @@ h1, h2 {
     transition: background-color 0.3s, transform 0.1s;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     min-width: 100px;
 }
 
@@ -148,6 +148,42 @@ h1, h2 {
 
 .botao-form:active {
     transform: scale(0.98);
+}
+
+.remover-item {
+    background: none; 
+    border: none;
+    color: var(--cor-vermelho); 
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.remover-item:hover {
+    background-color: rgba(237, 90, 85, 0.1);
+    text-decoration: underline;
+}
+
+.carrinho__produtos__produto {
+    justify-content: space-between;
+}
+
+/* Estilo para o botão WhatsApp */
+.botao-whatsapp {
+    background-color: var(--cor-verde); 
+    color: var(--cor-texto-principal);
+    width: 100%; 
+    margin-top: 20px;
+    padding: 15px 40px;
+}
+
+.botao-whatsapp:hover {
+    /* Escurece levemente no hover */
+    background-color: #b0c073; 
 }
 
 /* Seção Carrinho */
