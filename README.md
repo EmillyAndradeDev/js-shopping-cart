@@ -4,6 +4,8 @@
 Este é um projeto de portfólio Front-End que simula a lógica funcional de um Carrinho de Compras para a loja de brinquedos fictícia Playtime Store.
 O foco principal é a demonstração de manipulação do DOM e a aplicação de lógica de negócios (cálculos e gestão de estado) utilizando JavaScript Puro (Vanilla JS).
 
+---
+
 ## ✨ Funcionalidades
 O projeto implementa as seguintes interações e cálculos essenciais de um e-commerce:
 
@@ -19,11 +21,15 @@ O projeto implementa as seguintes interações e cálculos essenciais de um e-co
 
  - Enviar informações do carrinho para WhatsApp
 
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+---
 
 ### 🎨 Paleta de Cores (Playtime Store)
 A identidade visual vibrante da Playtime Store foi construída com a seguinte paleta lúdica:
@@ -36,6 +42,8 @@ A identidade visual vibrante da Playtime Store foi construída com a seguinte pa
 |Verde-Claro | `#C7D48E` |
 |Laranja | `#F09C60` |
 |Vermelho | `#ED5A55` |
+
+---
 
 
 ## 🚀 Como Executar o Projeto
@@ -51,3 +59,9 @@ A identidade visual vibrante da Playtime Store foi construída com a seguinte pa
     `cd js-shopping-cart`
 
  4. Abra o arquivo `index.html` em seu navegador.
+
+ ---
+
+ ### 🌐 Veja o Projeto Online
+Você pode interagir com o Shopping Cart diretamente pelo GitHub Pages:
+- [🛒 Shopping Cart](https://emillyandradedev.github.io/js-shopping-cart/)
