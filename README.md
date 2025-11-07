@@ -6,6 +6,12 @@ O foco principal é a demonstração de manipulação do DOM e a aplicação de 
 
 ---
 
+## 🎨 Screenshot
+
+![Screenshot of Playtime Store - Shopping Cart](screenshot02.jpeg) 
+
+---
+
 ## ✨ Funcionalidades
 O projeto implementa as seguintes interações e cálculos essenciais de um e-commerce:
 
